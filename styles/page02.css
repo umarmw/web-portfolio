@@ -1,0 +1,64 @@
+/* reset the CSS */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    padding-top: 100px;
+}
+
+.logo {
+    width: 240px;
+}
+
+.logo .cls-1{
+    fill: gold;
+}
+
+.logo .cls-2{
+    fill: teal;
+}
+
+.logo .cls-1:hover{
+    fill: violet;
+    transition: 1s ease-in;
+}
+
+
+@media only screen and (min-width: 1200px) {
+    .container {
+        width: 1200px;
+        margin: 0 auto;
+    }
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.box{
+    border: 1px solid #ccc;
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+}
+.col {
+    flex-grow: 1;
+}
+
+@media only screen and (min-width: 768px) {
+    .row {
+        flex-direction: row;
+    }
+}
+
+.col-1-3 {
+    flex-grow: 1;
+}
+.col-2-3 {
+    flex-grow: 2;
+}

@@ -1,11 +1,150 @@
 <html>
-<head>
-<title>My Web Portfolio</title>
-<link rel="stylesheet" href="styles/main.css" />
-</head>
-<body class="portfolio">
-  <h1>Welcome to my Portfolio</h1>
-  <p>View my latest artworks</p>
-  <div><img src="./images/sunset.jpg" alt="sunset" width="640"/></div>
-</body>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Web Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Raleway"
+    />
+    <link
+      rel="stylesheet"
+      href=" https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="styles/main.css" />
+  </head>
+  <body class="portfolio">
+    <!-- logo -->
+    <header>
+      <img src="images/mw.svg" alt="" width="100" />
+    </header>
+
+    <!-- hero-->
+    <section class="hero">
+      <img class="img--full" src="images/sunset_landscape.jpg" alt="" />
+      <div class="hero-block">
+        <h1>Main title</h1>
+        <p>Some other text</p>
+      </div>
+    </section>
+
+    <!-- 3 tiles -->
+    <section class="row space-top-10">
+      <div class="one-third">
+        <div class="icon-tile">
+          <i class="fa fa-camera-retro fa-4x"></i>
+          <h2>Title 1</h2>
+          <p>Some text</p>
+        </div>
+      </div>
+      <div class="one-third">
+        <div class="icon-tile">
+          <i class="fa fa-bookmark fa-4x"></i>
+          <h2>Title 2</h2>
+          <p>Some text</p>
+        </div>
+      </div>
+      <div class="one-third">
+        <div class="icon-tile">
+          <i class="fa fa-certificate fa-4x"></i>
+          <h2>Title 3</h2>
+          <p>Some text</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- description block-->
+    <section class="row">
+      <div class="one-third">
+        <img
+          class="img--full"
+          src="./images/sunset-342x256.jpg"
+          alt="sunset"
+        />
+      </div>
+      <div class="two-thirds">
+        <div class="content">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+          <p>
+            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+            accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+            quae ab illo inventore veritatis et quasi architecto beatae vitae
+            dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+            aspernatur aut odit aut fugit.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- portfolio block-->
+
+    <section class="row-clear">
+      <h2 class="title">Portfolio</h2>
+      <div class="grid-container">
+        <div class="area1">
+          <img
+            class="item1 img-responsive"
+            src="./images/beach-340x520.jpg"
+            alt="sunset"
+          />
+        </div>
+        <div class="area2">
+          <img
+            class="item2 img-responsive"
+            src="./images/t-shirt-320x520.jpg"
+            alt="sunset"
+          />
+        </div>
+        <div class="area3">
+          <img
+            class="item3 img-responsive"
+            src="./images/slow-down-342x256jpg.jpg"
+            alt="sunset"
+          />
+        </div>
+        <div class="area4">
+          <img
+            class="item4 img-responsive"
+            src="./images/sunset-342x256.jpg"
+            alt="sunset"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- contact block-->
+    <section>
+      <h2 class="title">Contact</h2>
+      <div class="row">
+        <div class="half">
+          <div class="contact-details">
+            <p>Address</p>
+            <p>Postal Address</p>
+            <p>Street name</p>
+            <p>Mauritius</p>
+            <p>5900 0000</p>
+          </div>
+        </div>
+        <div class="half">
+          <div class="contact-form">
+            <input type="text" name="name" placeholder="name" />
+            <textarea placeholder="message"></textarea>
+            <input type="submit" value="Send" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer block-->
+    <footer>
+      <p>&copy; MW Photography 2021</p>
+    </footer>
+  </body>
 </html>
